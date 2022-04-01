@@ -1,0 +1,33 @@
+{
+  "name": "node_project_template",
+  "version": "0.0.1",
+  "description": "A template for all Node project",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "lint": "./node_modules/.bin/eslint *.js",
+    "commitmsg": "validate-commit-msg"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brick9527/node_project_template.git"
+  },
+  "keywords": [
+    "template",
+    "Node",
+    "simple",
+    "project"
+  ],
+  "author": "brick9527 <brick9527@foxmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brick9527/node_project_template/issues"
+  },
+  "homepage": "https://github.com/brick9527/node_project_template#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "husky": "^7.0.4",
+    "prettier-eslint": "^13.0.0",
+    "validate-commit-msg": "^2.14.0"
+  }
+}
